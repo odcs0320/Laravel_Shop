@@ -9,6 +9,10 @@ class SiteController extends Controller
         return view('index');
     }
 
+    public function shop()
+    {
+        return view('shop');
+    }
 
 
 
@@ -17,4 +21,6 @@ class SiteController extends Controller
     {
         return view('contact');
     }
+
+
 }
