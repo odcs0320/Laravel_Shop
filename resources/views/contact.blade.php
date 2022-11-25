@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title','首頁')
+@section('title','聯絡資訊')
 
 
 @section('main')
@@ -62,10 +62,10 @@
                         </script>
                         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp;callback=initMap">
                         </script>
-    
+
                     </div>
-    
-    
+
+
                     <div class="row">
                         <div class="col-12">
                             <h2 class="contact-title">Get in Touch</h2>
@@ -126,7 +126,7 @@
                 </div>
             </section>
             <!-- ================ contact section end ================= -->
-    
 
-    
+
+
 @endsection
