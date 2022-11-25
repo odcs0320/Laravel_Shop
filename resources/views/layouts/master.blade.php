@@ -55,9 +55,9 @@
                         <div class="main-menu d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="shop.html">shop</a></li>
-                                    <li><a href="{{ url('about') }}">about</a></li>
+                                    <li><a href="{{ url('/') }}">Home</a></li>
+                                    <li><a href="{{ url('/shop') }}">shop</a></li>
+                                    <li><a href="about.html">about</a></li>
                                     <li class="hot"><a href="#">Latest</a>
                                         <ul class="submenu">
                                             <li><a href="shop.html"> Product list</a></li>
@@ -79,7 +79,7 @@
                                             <li><a href="checkout.html">Product Checkout</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="{{ url('/contact') }}">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
