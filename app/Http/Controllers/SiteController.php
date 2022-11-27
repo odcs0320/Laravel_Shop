@@ -9,14 +9,20 @@ class SiteController extends Controller
         return view('index');
     }
 
-    public function about()
-    {
-        return view('about');
-    }
     public function shop()
     {
         return view('shop');
     }
+
+    public function about()
+    {
+        return view('about');
+    }
+
+    public function pdtDetails(){
+        return view('pages.submenu.pdt_details') ;
+    }
+
     public function blog()
     {
         return view('blog');

@@ -60,8 +60,9 @@
                                     <li><a href="{{ url('/about') }}">about</a></li>
                                     <li class="hot"><a href="#">Latest</a>
                                         <ul class="submenu">
-                                            <li><a href="shop.html"> Product list</a></li>
-                                            <li><a href="product_details.html"> Product Details</a></li>
+                                            {{-- <li><a href="{{ url('/shop') }}"> Product list</a></li> <!--方式1--> --}}
+                                            <li><a href="{{ url('/pdt_list') }}"> Product list</a></li> <!--方式2 路由重定向-->
+                                            <li><a href="{{ url('/pdt_details') }}"> Product Details</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="{{ url('/blog') }}">Blog</a>
