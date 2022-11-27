@@ -1,7 +1,7 @@
 @extends('Layouts.master')
 @section('title','Blog')
 
-@section('contact')
+@section('main')
   <!-- Hero Area Start-->
         <div class="slider-area ">
             <div class="single-slider slider-height2 d-flex align-items-center">

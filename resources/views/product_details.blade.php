@@ -1,8 +1,9 @@
 @extends('Layouts.master')
-@section('title')
+@section('title', 'Product Details')
 
-@section('contact')
-  <!-- Hero Area Start-->
+@section('main')
+
+        <!-- Hero Area Start-->
         <div class="slider-area ">
             <div class="single-slider slider-height2 d-flex align-items-center">
                 <div class="container">
@@ -24,13 +25,13 @@
                 <div class="col-lg-12">
                 <div class="product_img_slide owl-carousel">
                     <div class="single_product_img">
-                        <img src="{{asset('/img/gallery/gallery1.png')}}" alt="#" class="img-fluid">
+                        <img src="assets/img/gallery/gallery1.png" alt="#" class="img-fluid">
                     </div>
                     <div class="single_product_img">
-                        <img src="{{asset('/img/gallery/gallery01.png')}}" alt="#" class="img-fluid">
+                        <img src="assets/img/gallery/gallery01.png" alt="#" class="img-fluid">
                     </div>
                     <div class="single_product_img">
-                        <img src="{{asset('/img/gallery/gallery1.png')}}" alt="#" class="img-fluid">
+                        <img src="assets/img/gallery/gallery1.png" alt="#" class="img-fluid">
                     </div>
                 </div>
                 </div>
@@ -79,4 +80,5 @@
             </div>
         </section>
         <!-- subscribe part end -->
+
 @endsection
