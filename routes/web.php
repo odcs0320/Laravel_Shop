@@ -15,12 +15,19 @@ use Illuminate\Support\Facades\Route;
 
 Route::namespace ('App\Http\Controllers')->group(function () {
     Route::get('/', 'SiteController@index');
-
     Route::get('/about', 'SiteController@about');
-
     Route::get('/shop', 'SiteController@shop');
     Route::get('/blog', 'SiteController@blog');
-
     Route::get('/contact', 'SiteController@contact');
+
+    //Penny 2022/11/27 add
+    Route::get('/blog-details', 'SiteController@blog_details');
+    Route::get('/cart', 'SiteController@cart');
+    Route::get('/checkout', 'SiteController@checkout');
+    Route::get('/confirmation', 'SiteController@confirmation');
+    Route::get('/contact', 'SiteController@contact');
+    Route::get('/elements', 'SiteController@elements');
+    Route::get('/product_details', 'SiteController@product_details');
+    Route::get('/login', 'SiteController@login');
 
 });
