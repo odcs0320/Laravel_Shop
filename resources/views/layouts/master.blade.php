@@ -107,7 +107,7 @@
         <!-- Header End -->
     </header>
 
-<main>
+    <main>
         @yield('main')
     </main>
 

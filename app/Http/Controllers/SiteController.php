@@ -20,7 +20,7 @@ class SiteController extends Controller
     }
 
     public function pdtDetails(){
-        return view('pages.submenu.pdt_details') ;
+        return view('frontend.submenu.pdt_details') ;
     }
 
     public function blog()
