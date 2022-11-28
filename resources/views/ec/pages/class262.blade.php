@@ -15,12 +15,26 @@
     <div class="TabContent"> 
         <div class="TabContentD"> 
             <ul> 
-            <li> <a id="bt_0_262_01_e7" href="{{ $url_w_mo }}/category/LgrpCategory.jsp?l_code=3700100000&mdiv=1099900000-bt_0_262_01-bt_0_262_01_e7&ctype=B" title="momo超市回饋10%"> <img id="bt_0_262_01_e8" lazy="1" src="{{ $url_w_mo }}{{ $ecmimg }}/cmm/blank.png" title="momo超市回饋10%" alt="momo超市回饋10%" width="290" height="260" org="//img2.momoshop.com.tw{{ $ecmimg }}/online/10/999/00/000/bt_0_262_01/bt_0_262_01_e8.jpg?t=1625128247842" /> <span id="bt_0_262_01_e11" class="sso_e8_alt" style="display:none;">momo超市回饋10%</span> <span id="bt_0_262_01_e12" class="sso_e8_title" style="display:none;">momo超市回饋10%</span> <span id="bt_0_262_01_e13" class="sso_e7_title" style="display:none;">momo超市回饋10%</span> </a> </li> 
+            <li>
+                <a id="bt_0_262_01_e7" href="{{ $url_w_mo }}/category/LgrpCategory.jsp?l_code=3700100000&mdiv=1099900000-bt_0_262_01-bt_0_262_01_e7&ctype=B" title="momo超市回饋10%">
+                    <img id="bt_0_262_01_e8" lazy="1" src="{{ $url_w_mo }}{{ $ecmimg }}/cmm/blank.png" title="momo超市回饋10%" alt="momo超市回饋10%" width="290" height="260" org="//img2.momoshop.com.tw{{ $ecmimg }}/online/10/999/00/000/bt_0_262_01/bt_0_262_01_e8.jpg?t=1625128247842" />
+                    <span id="bt_0_262_01_e11" class="sso_e8_alt" style="display:none;">momo超市回饋10%</span>
+                    <span id="bt_0_262_01_e12" class="sso_e8_title" style="display:none;">momo超市回饋10%</span>
+                    <span id="bt_0_262_01_e13" class="sso_e7_title" style="display:none;">momo超市回饋10%</span>
+                </a>
+            </li> 
             </ul> 
         </div> 
         <div class="TabContentD"> 
             <ul> 
-            <li> <a id="bt_0_262_01_e14" href="{{ $url_w_mo }}/goods/5hHomepage.jsp?mdiv=1099900000-bt_0_262_01-bt_0_262_01_e14&ctype=B" title="生活大省團77折up"> <img id="bt_0_262_01_e15" lazy="1" src="{{ $url_w_mo }}{{ $ecmimg }}/cmm/blank.png" title="生活大省團77折up" alt="生活大省團77折up" width="290" height="260" org="//img3.momoshop.com.tw{{ $ecmimg }}/online/10/999/00/000/bt_0_262_01/bt_0_262_01_e15.png?t=1658739671881" /> <span id="bt_0_262_01_e18" class="sso_e15_alt" style="display:none;">生活大省團77折up</span> <span id="bt_0_262_01_e19" class="sso_e15_title" style="display:none;">生活大省團77折up</span> <span id="bt_0_262_01_e20" class="sso_e14_title" style="display:none;">生活大省團77折up</span> </a> </li> 
+            <li>
+                <a id="bt_0_262_01_e14" href="{{ $url_w_mo }}/goods/5hHomepage.jsp?mdiv=1099900000-bt_0_262_01-bt_0_262_01_e14&ctype=B" title="生活大省團77折up">
+                    <img id="bt_0_262_01_e15" lazy="1" src="{{ $url_w_mo }}{{ $ecmimg }}/cmm/blank.png" title="生活大省團77折up" alt="生活大省團77折up" width="290" height="260" org="//img3.momoshop.com.tw{{ $ecmimg }}/online/10/999/00/000/bt_0_262_01/bt_0_262_01_e15.png?t=1658739671881" />
+                    <span id="bt_0_262_01_e18" class="sso_e15_alt" style="display:none;">生活大省團77折up</span>
+                    <span id="bt_0_262_01_e19" class="sso_e15_title" style="display:none;">生活大省團77折up</span>
+                    <span id="bt_0_262_01_e20" class="sso_e14_title" style="display:none;">生活大省團77折up</span>
+                </a>
+            </li> 
             </ul> 
         </div> 
         <div class="TabContentD"> 
@@ -33,7 +47,6 @@
 </div> 
 
 <div id="bt_0_262_02" class="btclass bt_0_262 "> 
-    
     {{-- 精選推薦 --}}
     <h3><span id="bt_0_262_02_e1">精選推薦</span></h3> 
     <div class="TabMenu"> 
@@ -63,7 +76,6 @@
 </div> 
 
 <div id="bt_0_262_03" class="btclass bt_0_262 "> 
-
     {{-- 銀行好康 --}}
     <h3><span id="bt_0_262_03_e1">銀行好康</span></h3> 
     <div class="TabMenu"> 
@@ -93,7 +105,6 @@
 </div> 
 
 <div id="bt_0_262_04" class="btclass bt_0_262 "> 
-
     {{-- momo同樂會 --}}
     <h3><span id="bt_0_262_04_e1">momo同樂會</span></h3> 
     <div class="TabMenu"> 

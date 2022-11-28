@@ -17,8 +17,8 @@
     @section('content')
       <hr/>
         {!! $master_content !!}
-        <div>語法：<pre>{{ $master_content }}</pre></div>
-        <div>轉義後：<pre>{{{ $master_content }}}</pre></div>
+          <div>語法：<pre>{{ $master_content }}</pre></div>
+          <div>轉義後：<pre>{{{ $master_content }}}</pre></div> 
       <hr/>
     @show
   </body>
