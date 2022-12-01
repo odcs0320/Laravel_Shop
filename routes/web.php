@@ -24,12 +24,10 @@ Route::prefix('/users')->group(function(){
     Route::get('/','App\Http\Controllers\UserController@show');
 });
 
-/*
-Route::get('posts/{post}/comments/{comment}', function($post,$comment){
+/* Route::get('posts/{post}/comments/{comment}', function($post,$comment){
     return "posts $post , comments $comment";
 });
-*/
-
+ */
 
 
 Route::namespace('App\Http\Controllers')->group(function(){
